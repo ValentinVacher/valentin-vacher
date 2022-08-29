@@ -6,8 +6,7 @@ document.head.appendChild(modernizr);
 
 let normalize = document.createElement("link");
 normalize.rel = "stylesheet";
-normalize.href =
-    "./components/firewatch-parallax-in-css/style/normalize.min.css";
+normalize.href = "./components/firewatch-parallax-in-css/style/normalize.min.css";
 
 document.head.appendChild(normalize);
 
@@ -32,8 +31,7 @@ for (let i = 0; i < 7; i++) {
     layer.className = "parallax__layer parallax__layer__" + j;
 
     asset = document.createElement("img");
-    asset.src =
-        "./components/firewatch-parallax-in-css/asset/layer_" + j + ".png";
+    asset.src = "./components/firewatch-parallax-in-css/asset/layer_" + j + ".png";
 
     layer.appendChild(asset);
 
