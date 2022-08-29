@@ -6,25 +6,18 @@
     font-family: 'Rajdhani-light';
     src: url(../asset/font/Rajdhani-Light.ttf);
 }
-*{
-    margin: 0;
-    padding: 0;
-}
-body{
-    background-color: #eee;
-}
 header{
-    background: url(../asset/images/lake-5475602.jpg) no-repeat fixed 50% 50%;
-    background-size: cover;
     height: 100vh;
     padding: 20px;
 }
 h1, h2{
     text-align: center;
-    font-size: 4rem;
+    font-size: 4rem !important;
     font-family: 'Rajdhani-Bold';
     letter-spacing: 0.2rem;
     padding: 5px;
+    text-shadow: 1px 1px 1px black;
+    margin: 0 !important;
 }
 h1{
     font-family: 'Rajdhani-light';
@@ -36,5 +29,8 @@ h2{
     height: 1px;
     background-color: black;
     width: 25%;
-    margin: 15px auto;
+    margin: 20px auto;
+}
+li{
+    
 }
