@@ -49,3 +49,6 @@ let jquery = document.createElement("script");
 jquery.src = "./components/firewatch-parallax-in-css/src/jquery.min.js";
 
 document.body.appendChild(jquery);
+
+const content = document.getElementById("content");
+layer.appendChild(content);

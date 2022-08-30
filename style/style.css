@@ -12,12 +12,13 @@ header{
 }
 h1, h2{
     text-align: center;
-    font-size: 4rem !important;
+    font-size: 5rem !important;
     font-family: 'Rajdhani-Bold';
     letter-spacing: 0.2rem;
     padding: 5px;
     text-shadow: 1px 1px 1px black;
     margin: 0 !important;
+    color: #FFAF1B;
 }
 h1{
     font-family: 'Rajdhani-light';
@@ -26,10 +27,11 @@ h2{
     font-family: 'Rajdhani-Bold';
 }
 .line{
-    height: 1px;
-    background-color: black;
+    height: 3px;
+    background-color: #FFAF1B;
     width: 25%;
     margin: 20px auto;
+    box-shadow: 1px 1px 1px black;
 }
 li{
     
