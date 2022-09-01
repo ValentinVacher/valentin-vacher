@@ -8,7 +8,6 @@
 }
 header{
     height: 100vh;
-    padding: 20px;
 }
 h1, h2{
     text-align: center;
@@ -26,6 +25,9 @@ h1{
 h2{
     font-family: 'Rajdhani-Bold';
 }
+.title{
+    padding-top: 60px;
+}
 .line{
     height: 3px;
     background-color: #FFAF1B;
@@ -35,7 +37,7 @@ h2{
 }
 body{
     animation: luminosity 5s forwards;
-    padding-top: 50px;
+
     overflow:hidden ;
 }
 @keyframes luminosity {
