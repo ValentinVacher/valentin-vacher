@@ -16,7 +16,7 @@ h1, h2{
     font-family: 'Rajdhani-Bold';
     letter-spacing: 0.2rem;
     padding: 5px;
-    text-shadow: 1px 1px 1px #E17B1B;
+    text-shadow: 1px 1px 1px #DF711d;
     margin: 0 !important;
     color: #FFAF1B;
 }
@@ -57,5 +57,36 @@ nav{
     z-index: 1;
 }
 a{
-    margin: auto;
+    display: block;
+    height: 100%;
+    width: 25%;
+    line-height: 50px;
+    text-decoration: none;
+    color: #DF711d;
+    position: relative;
+    transition-duration: 0.3s;
+    font-family: 'Rajdhani-Bold';
+    font-size: 25px;
+}
+a::before{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #FFAF00;
+    transform: scaleX(0);
+    transform-origin: 0 50%;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+a:active{
+    transition-duration: .1s;
+    font-size: 20px;
+    color: #210002;
+}
+a:hover::before, a:active::before, a:focus::before{
+    transform: scaleX(1);
 }
