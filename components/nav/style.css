@@ -1,0 +1,59 @@
+nav{
+    text-align: center;
+    width: 100%;
+    background-color: #210002;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 50px;
+    z-index: 1;
+}
+.logo{
+    position: absolute;
+    top: 8px;
+    left: 1rem;
+    height: 40px;
+}
+.logo img{
+    height: 100%;
+}
+.cv, .contact, .bomberman{
+    display: block;
+    margin-left: 25%;
+    height: 100%;
+    width: 25%;
+    line-height: 60px;
+    text-decoration: none;
+    color: #DF711d;
+    position: relative;
+    transition-duration: 0.3s;
+    font-family: 'Rajdhani-Bold';
+    font-size: 25px;
+}
+.contact{
+    margin-left: 50%;
+    transform: translateY(-100%);
+}
+.bomberman{
+    margin-left: 75%;
+    transform: translateY(-200%);
+}.cv::before, .contact::before, .bomberman::before{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #FFAF00;
+    transform: scaleX(0);
+    transform-origin: 0 50%;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}.cv:active, .contact:active, .bomberman:active{
+    transition-duration: .1s;
+    font-size: 20px;
+    color: #210002;
+}.cv:hover::before, .cv:active::before, .cv:focus::before, .contact:hover::before, .contact:active::before, .contact:focus::before, .bomberman:hover::before, .bomberman:active::before, .bomberman:focus::before{
+    transform: scaleX(1);
+}
