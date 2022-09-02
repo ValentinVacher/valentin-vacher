@@ -15,9 +15,8 @@ h1, h2{
     font-family: 'Rajdhani-Bold';
     letter-spacing: 0.2rem;
     padding: 5px;
-    text-shadow: 1px 1px 1px #DF711d;
     margin: 0 !important;
-    color: #FFAF1B;
+    color: #E17B1B;
 }
 h1{
     font-family: 'Rajdhani-light';
@@ -29,28 +28,39 @@ h2{
     padding-top: 60px;
 }
 .line{
-    height: 3px;
-    background-color: #FFAF1B;
+    height: 2px;
+    background-color: #E17B1B;
     width: 25%;
     margin: 20px auto;
-    box-shadow: 1px 1px 1px #E17B1B;
+    border-radius: 1px;
 }
 body{
     overflow: hidden;
 }
 .parallax{
     overflow: hidden;
-    scroll-behavior: smooth;
-    scrollbar-color: black black;
+    scroll-behavior: smooth; 
+    scrollbar-color: #e17B1B #210002;
 }
+::-webkit-scrollbar{
+    width: 10px;
+    background-color: #210002;
+    z-index: 100 !important;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #E17B1B;
+    border-radius: 5px;
+    box-shadow: 0 -101vh 0 100vh #E17B1B;
+}
+
 .fade_to_black{
     position: absolute;
     top: -1200vh;
     height: 1300%;
     width: 100%;
-    z-index: 1;
-    background: linear-gradient(transparent, black);
-    animation: luminosity ease-in 2s both;
+    z-index: 0;
+    background: linear-gradient(transparent, #210002);
+    animation: luminosity ease-in 1s both;
 }
 @keyframes luminosity {
     0%{

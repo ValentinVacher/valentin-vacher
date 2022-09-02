@@ -17,12 +17,19 @@ nav{
 .logo img{
     height: 100%;
 }
+.logo img:hover{
+    transform: scale(1.1);
+    transition: .1s linear;
+}
+.logo img:active{
+    transform: scale(1);
+}
 .cv, .contact, .bomberman{
     display: block;
     margin-left: 25%;
     height: 100%;
     width: 25%;
-    line-height: 60px;
+    line-height: 50px;
     text-decoration: none;
     color: #DF711d;
     position: relative;
@@ -37,7 +44,8 @@ nav{
 .bomberman{
     margin-left: 75%;
     transform: translateY(-200%);
-}.cv::before, .contact::before, .bomberman::before{
+}
+.cv::before, .contact::before, .bomberman::before{
     content: "";
     position: absolute;
     z-index: -1;
@@ -48,12 +56,13 @@ nav{
     background: #FFAF00;
     transform: scaleX(0);
     transform-origin: 0 50%;
-    transition-duration: 1s;
-    transition-timing-function: ease-in-out;
-}.cv:active, .contact:active, .bomberman:active{
+    transition: 1s ease-in-out;
+}
+.cv:active, .contact:active, .bomberman:active{
     transition-duration: .1s;
     font-size: 20px;
     color: #210002;
-}.cv:hover::before, .cv:active::before, .cv:focus::before, .contact:hover::before, .contact:active::before, .contact:focus::before, .bomberman:hover::before, .bomberman:active::before, .bomberman:focus::before{
+}
+.cv:hover::before, .cv:active::before, .cv:focus::before, .contact:hover::before, .contact:active::before, .contact:focus::before, .bomberman:hover::before, .bomberman:active::before, .bomberman:focus::before{
     transform: scaleX(1);
 }

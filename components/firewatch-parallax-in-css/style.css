@@ -10,7 +10,6 @@ body {
 .parallax {
   perspective: 100px;
   height: 100vh;
-  overflow-x: hidden;
   overflow-y: auto;
   position: absolute;
   top: 0;
