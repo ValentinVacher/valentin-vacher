@@ -37,7 +37,11 @@ h2{
 }
 body{
     overflow: hidden;
+}
+.parallax{
+    overflow: hidden;
     scroll-behavior: smooth;
+    scrollbar-color: black black;
 }
 .fade_to_black{
     position: absolute;
@@ -46,7 +50,7 @@ body{
     width: 100%;
     z-index: 1;
     background: linear-gradient(transparent, black);
-    animation: luminosity ease-in 1.3s both;
+    animation: luminosity ease-in 2s both;
 }
 @keyframes luminosity {
     0%{

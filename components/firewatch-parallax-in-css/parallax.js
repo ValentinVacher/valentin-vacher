@@ -1,18 +1,6 @@
-let modernizr = document.createElement("script");
-modernizr.src = "./components/firewatch-parallax-in-css/src/modernizr.min.js";
-modernizr.type = "text/javascript";
-
-document.head.appendChild(modernizr);
-
-let normalize = document.createElement("link");
-normalize.rel = "stylesheet";
-normalize.href = "./components/firewatch-parallax-in-css/style/normalize.min.css";
-
-document.head.appendChild(normalize);
-
 let style = document.createElement("link");
 style.rel = "stylesheet";
-style.href = "./components/firewatch-parallax-in-css/style/style.css";
+style.href = "./components/firewatch-parallax-in-css/style.css";
 
 document.head.appendChild(style);
 
@@ -44,11 +32,6 @@ layer.className = "parallax__cover";
 parallax.appendChild(layer);
 
 document.body.appendChild(parallax);
-
-let jquery = document.createElement("script");
-jquery.src = "./components/firewatch-parallax-in-css/src/jquery.min.js";
-
-document.body.appendChild(jquery);
 
 const content = document.getElementById("content");
 layer.appendChild(content);
