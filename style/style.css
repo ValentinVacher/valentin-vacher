@@ -6,6 +6,10 @@
     font-family: 'Rajdhani-light';
     src: url(../asset/font/Rajdhani-Light.ttf);
 }
+@font-face {
+    font-family: 'AverageSans-Regular';
+    src: url(../asset/font/AverageSans-Regular.ttf);
+}
 header{
     height: 100vh;
 }
@@ -16,7 +20,7 @@ h1, h2{
     letter-spacing: 0.2rem;
     padding: 5px;
     margin: 0 !important;
-    color: #E17B1B;
+    color: #210002;
 }
 h1{
     font-family: 'Rajdhani-light';
@@ -25,17 +29,18 @@ h2{
     font-family: 'Rajdhani-Bold';
 }
 .title{
-    padding-top: 60px;
+    padding-top: 5rem;
 }
 .line{
     height: 2px;
-    background-color: #E17B1B;
+    background-color: #210002;
     width: 25%;
     margin: 20px auto;
     border-radius: 1px;
 }
 body{
     overflow: hidden;
+    height: 200vh;
 }
 .parallax{
     overflow: hidden;
@@ -58,17 +63,52 @@ body{
     top: -1200vh;
     height: 1300%;
     width: 100%;
-    z-index: 0;
+    z-index: 2;
     background: linear-gradient(transparent, #210002);
     animation: luminosity ease-in 1s both;
+    overflow: hidden;
 }
 @keyframes luminosity {
     0%{
         filter: brightness(0);
     }
     100%{
+        height: 1300%;
         filter: brightness(1);
         transform: translateY(100%);
         visibility: hidden;
     }
+}
+.parent {
+    margin-top: 5rem;
+    display: grid;
+    grid-template-columns: 25fr 75fr;
+    grid-template-rows: 11rem;
+}
+.info{
+
+    margin: 0 1rem;
+    border: 2px solid #210002;
+    width: 25vw;
+    height: 100%;
+    text-align: center;
+    line-height: 4.3rem;
+    box-shadow: 0 0 10px #210002;
+    border-radius: 5px;
+}
+.info ul{
+    margin-top: -1rem;
+    padding: 0;
+}
+.info ul li {
+    list-style-type: none; 
+    font-size: 20px; 
+    font-family: 'Rajdhani-Bold';  
+    color: #210002;
+}
+.description{
+    margin: auto 1rem;
+    color: #210002;
+    font-size: 20px;
+    font-family: 'AverageSans-Regular';
 }
