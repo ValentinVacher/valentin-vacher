@@ -1,34 +1,41 @@
-nav{
-    text-align: center;
+nav, .logo, .grid-github{
     width: 100%;
-    background-color: #210002;
+}
+nav, .cv::before, .contact::before, .bomberman::before{
     position: absolute;
+}
+nav{
+    display: grid;
+    grid-template-columns: 1fr repeat(3, 3fr) 1fr;
+    text-align: center;
+    background-color: #210002;
     top: 0;
     right: 0;
     height: 50px;
     z-index: 1;
 }
-.logo{
-    position: absolute;
-    top: 5px;
-    left: 1rem;
-    height: 40px;
+.logo:hover, .grid-github{
+    cursor:default;
+}
+.logo img, .fa-github{
+    cursor: pointer;
 }
 .logo img{
     height: 100%;
 }
-.logo img:hover{
+.logo img:hover, .fa-github:hover{
     transform: scale(1.1);
     transition: .1s linear;
 }
-.logo img:active{
+.logo img:active, .fa-github:active{
     transform: scale(1);
+}
+.fa-github{
+    color: #F9B233;
+    height: 40px;
 }
 .cv, .contact, .bomberman{
     display: block;
-    margin-left: 25%;
-    height: 100%;
-    width: 25%;
     line-height: 50px;
     text-decoration: none;
     color: #DF711d;
@@ -37,17 +44,22 @@ nav{
     font-family: 'Rajdhani-Bold';
     font-size: 25px;
 }
-.contact{
-    margin-left: 50%;
-    transform: translateY(-100%);
+.cv, .contact, .bomberman{
+    border-left: 1px solid #513234;
+    border-right: 1px solid #513234;
 }
-.bomberman{
-    margin-left: 75%;
-    transform: translateY(-200%);
+.logo, .grid-github{
+    margin: auto;
+}
+.logo{
+    border-right: 1px solid #513234;
+    height: 40px;
+}
+.grid-github{
+    border-left: 1px solid #513234;
 }
 .cv::before, .contact::before, .bomberman::before{
     content: "";
-    position: absolute;
     z-index: -1;
     top: 0;
     left: 0;
