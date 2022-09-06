@@ -1,0 +1,34 @@
+@font-face {
+    font-family:'Rajdhani-Bold' ;
+    src: url(../asset/font/Rajdhani-Bold.ttf);
+}
+@font-face {
+    font-family: 'Rajdhani-light';
+    src: url(../asset/font/Rajdhani-Light.ttf);
+}
+@font-face {
+    font-family: 'AverageSans-Regular';
+    src: url(../asset/font/AverageSans-Regular.ttf);
+}
+@keyframes luminosity {
+    0%{
+        filter: brightness(0);
+    }
+    100%{
+        height: 1300%;
+        filter: brightness(1);
+        transform: translateY(100%);
+        visibility: hidden;
+    }
+}
+@keyframes moveY {
+    0%{
+        transform: translateY(-200%);
+    }
+    50%{
+        transform: translateY(-100%);
+    }
+    100%{
+        transform: translateY(-200%);
+    }
+}

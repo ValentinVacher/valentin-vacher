@@ -1,15 +1,3 @@
-@font-face {
-    font-family:'Rajdhani-Bold' ;
-    src: url(../asset/font/Rajdhani-Bold.ttf);
-}
-@font-face {
-    font-family: 'Rajdhani-light';
-    src: url(../asset/font/Rajdhani-Light.ttf);
-}
-@font-face {
-    font-family: 'AverageSans-Regular';
-    src: url(../asset/font/AverageSans-Regular.ttf);
-}
 header{
     height: 100vh;
 }
@@ -66,17 +54,6 @@ body{
     animation: luminosity ease-in 1s both;
     overflow: hidden;
 }
-@keyframes luminosity {
-    0%{
-        filter: brightness(0);
-    }
-    100%{
-        height: 1300%;
-        filter: brightness(1);
-        transform: translateY(100%);
-        visibility: hidden;
-    }
-}
 .parent {
     margin-top: 1rem;
     display: grid;
@@ -131,4 +108,14 @@ body{
     color: #FEDCC8;
     text-align: center;
     border: 1px solid #FEDCC8;
+}
+.fa-chevron-down{
+    position: absolute;
+    top: 0;
+    margin-bottom: -200px;
+    height: 40px;
+    opacity: 0.75;
+    animation: moveY linear 3s none infinite;
+    cursor: pointer;
+    color: #fedcc8;
 }
