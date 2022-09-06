@@ -16,7 +16,6 @@ header{
 h1, h2{
     text-align: center;
     font-size: 4rem;
-    font-family: 'Rajdhani-Bold';
     letter-spacing: 0.2rem;
     margin: 0;
     color: #210002;
@@ -120,6 +119,9 @@ body{
     grid-template-rows: 1fr;
     grid-column-gap: 0px;
     grid-row-gap: 0px;
+}
+.fa-compass, .fa-phone, .fa-user{
+    padding-right: 10px;
 }
 #content{
     width: 50vw;
