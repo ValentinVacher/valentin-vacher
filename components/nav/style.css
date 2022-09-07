@@ -19,6 +19,8 @@ nav{
 }
 .logo img, .fa-github{
     cursor: pointer;
+    height: 40px !important;
+    margin-top: 5px;
 }
 .logo img{
     height: 100%;
@@ -48,12 +50,8 @@ nav{
     border-left: 1px solid #513234;
     border-right: 1px solid #513234;
 }
-.logo, .grid-github{
-    margin: auto;
-}
 .logo{
     border-right: 1px solid #513234;
-    height: 40px;
 }
 .grid-github{
     border-left: 1px solid #513234;
