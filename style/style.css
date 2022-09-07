@@ -119,3 +119,9 @@ body{
     cursor: pointer;
     color: #fedcc8;
 }
+.space{
+    position: absolute;
+    top: 0;
+    height: 50px;
+    margin: 0;
+}
