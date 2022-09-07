@@ -83,12 +83,12 @@ body{
     color: #210002;
 }
 .description{
-    margin: auto 1rem auto auto;
+    margin: auto 6rem auto -3rem;
     color: #210002;
     font-size: 20px;
     font-family: 'AverageSans-Regular';
-    padding: 10px;
     text-align: justify;
+    line-height: 25px;
 }
 .grid {
     display: grid;
