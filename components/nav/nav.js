@@ -36,6 +36,7 @@ let bomberman = document.createElement("a");
 bomberman.href = "../pages/bomberman.html";
 bomberman.className = "bomberman";
 bomberman.innerText = "BOMBERMAN";
+bomberman.target = "_blank";
 
 nav.appendChild(bomberman);
 
