@@ -11,7 +11,7 @@ logo.href = "../index.html";
 logo.className = "logo";
 
 let logoImg = document.createElement("img");
-logoImg.src = "/asset/images/logo.png";
+logoImg.src = "./asset/images/logo.png";
 logoImg.alt = "logo";
 
 logo.appendChild(logoImg);
@@ -33,7 +33,7 @@ contact.innerText = "CONTACT";
 nav.appendChild(contact);
 
 let bomberman = document.createElement("a");
-bomberman.href = "/pages/bomberman.html";
+bomberman.href = "./pages/bomberman.html";
 bomberman.className = "bomberman";
 bomberman.innerText = "BOMBERMAN";
 
