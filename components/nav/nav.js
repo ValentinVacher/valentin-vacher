@@ -7,7 +7,7 @@ document.head.appendChild(navStyle);
 const header = document.getElementById("header")
 let nav = document.createElement("nav");
 let logo = document.createElement("a");
-logo.href = "../index.html";
+logo.href = "./index.html";
 logo.className = "logo";
 
 let logoImg = document.createElement("img");
