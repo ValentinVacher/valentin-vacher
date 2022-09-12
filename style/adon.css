@@ -10,6 +10,10 @@
     font-family: 'AverageSans-Regular';
     src: url(../asset/font/AverageSans-Regular.ttf);
 }
+@font-face {
+    font-family: 'botw';
+    src: url(../asset/font/The\ Wild\ Breath\ of\ Zelda.otf);
+}
 @keyframes luminosity {
     0%{
         filter: brightness(0);
