@@ -7,7 +7,7 @@ document.head.appendChild(navStyle);
 const header = document.getElementById("header")
 let nav = document.createElement("nav");
 let logo = document.createElement("a");
-logo.href = "./index.html";
+logo.href = "index.html";
 logo.className = "logo";
 
 let logoImg = document.createElement("img");
@@ -18,7 +18,7 @@ logo.appendChild(logoImg);
 nav.appendChild(logo);
 
 let cv = document.createElement('a');
-cv.href = "/asset/resource/CV_développeur_Informatique.pdf";
+cv.href = "./asset/resource/CV_développeur_Informatique.pdf";
 cv.target = "_blank"
 cv.className = "cv";
 cv.innerText = "CV EN PDF";
