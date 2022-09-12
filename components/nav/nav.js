@@ -1,13 +1,13 @@
 let navStyle = document.createElement("link");
 navStyle.rel = "stylesheet";
-navStyle.href = "../components/nav/style.css";
+navStyle.href = "./components/nav/style.css";
 
 document.head.appendChild(navStyle);
 
 const header = document.getElementById("header")
 let nav = document.createElement("nav");
 let logo = document.createElement("a");
-logo.href = "../index.html";
+logo.href = "./index.html";
 logo.className = "logo";
 
 let logoImg = document.createElement("img");
@@ -18,7 +18,7 @@ logo.appendChild(logoImg);
 nav.appendChild(logo);
 
 let cv = document.createElement('a');
-cv.href = "../asset/resource/CV_développeur_Informatique.pdf";
+cv.href = "./asset/resource/CV_développeur_Informatique.pdf";
 cv.target = "_blank"
 cv.className = "cv";
 cv.innerText = "CV EN PDF";
@@ -33,7 +33,7 @@ contact.innerText = "CONTACT";
 nav.appendChild(contact);
 
 let bomberman = document.createElement("a");
-bomberman.href = "../pages/bomberman.html";
+bomberman.href = "./pages/bomberman.html";
 bomberman.className = "bomberman";
 bomberman.innerText = "BOMBERMAN";
 
