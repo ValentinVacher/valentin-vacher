@@ -1,6 +1,6 @@
 let navStyle = document.createElement("link");
 navStyle.rel = "stylesheet";
-navStyle.href = "/components/nav/style.css";
+navStyle.href = "./components/nav/style.css";
 
 document.head.appendChild(navStyle);
 
