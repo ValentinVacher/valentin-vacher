@@ -53,6 +53,10 @@ nav{
 .logo{
     border-right: 1px solid #513234;
 }
+.bomberman{
+    font-family: "botw";
+    letter-spacing: 2px;
+}
 .grid-github{
     border-left: 1px solid #513234;
 }

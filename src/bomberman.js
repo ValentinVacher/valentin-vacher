@@ -2,6 +2,7 @@ window.addEventListener('load', function() {
     const body = document.getElementById('background');
     const canvas = document.getElementById('bomberman');
     const play = document.getElementById('play');
+    const infos = document.getElementById('infos');
     const ctx = canvas.getContext('2d');
 
     canvas.width = 1920;
@@ -9,7 +10,9 @@ window.addEventListener('load', function() {
 
     play.addEventListener('click', () => {
         play.style.transition = '0s';
+        infos.style.transition = '0s';
         play.style.visibility = 'hidden';
+        infos.style.visibility = 'hidden';
         body.style.background = '#000';
         canvas.style.background = '#eee';
         canvas.style.visibility = 'visible';
