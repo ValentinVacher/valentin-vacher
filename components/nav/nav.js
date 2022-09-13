@@ -18,7 +18,7 @@ logo.appendChild(logoImg);
 nav.appendChild(logo);
 
 let cv = document.createElement('a');
-cv.href = "../asset/resource/CV_développeur_Informatique.pdf";
+cv.href = "../asset/resource/CV.pdf";
 cv.target = "_blank"
 cv.className = "cv";
 cv.innerText = "CV EN PDF";
