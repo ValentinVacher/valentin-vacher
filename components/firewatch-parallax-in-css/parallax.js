@@ -19,7 +19,7 @@ for (let i = 0; i < 7; i++) {
     layer.className = "parallax__layer parallax__layer__" + j;
 
     asset = document.createElement("img");
-    asset.src = "./components/firewatch-parallax-in-css/asset/layer_" + j + ".png";
+    asset.src = "../asset/images/layer_" + j + ".png";
 
     layer.appendChild(asset);
 
