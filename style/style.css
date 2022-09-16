@@ -16,6 +16,7 @@ h2{
 }
 .title{
     padding-top: 4rem;
+    animation: scale-in-bottom .5s ease-out both;
 }
 .line{
     height: 2px;
@@ -59,6 +60,7 @@ body{
     display: grid;
     grid-template-columns: 25fr 75fr;
     grid-template-rows: 11rem;
+    animation: scale-in-bottom .75s ease-out both;;
 }
 .info{
 
@@ -124,4 +126,12 @@ body{
     top: 0;
     height: 50px;
     margin: 0;
+}
+.red{
+    position: absolute;
+    color: red;
+    font-size: xx-large;
+    font-family: 'Rajdhani-Bold';
+    right: 10%;
+    top: 20%;
 }
