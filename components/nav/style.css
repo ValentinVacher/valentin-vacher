@@ -13,6 +13,7 @@ nav{
     right: 0;
     height: 50px;
     z-index: 1;
+    animation: appearY .25s ease-out both;
 }
 .logo:hover, .grid-github{
     cursor:default;

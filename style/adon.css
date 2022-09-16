@@ -48,4 +48,12 @@
         transform: translateY(0);
         opacity: 1;
     }
-  }
+}
+@keyframes appearY {
+    0%{
+        transform: translateY(-100%);
+    }
+    100%{
+        transform: translate(0);
+    }
+}
