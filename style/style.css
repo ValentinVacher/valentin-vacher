@@ -172,6 +172,24 @@ body{
     border-right: 4px solid #e17B1B;
     padding-right: 75px;
 }
+.hidden{
+    visibility: hidden;
+}
+.right-active{
+    animation: scale-up-right 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+.left-active{
+    animation: scale-up-left 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+.reverse-right-active{
+    animation: scale-down-right 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+.reverse-left-active{
+    animation: scale-down-left 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+.visible{
+    visibility: visible;
+}
 .fa-arrow-down{
     width: 20px;
     height: auto;
