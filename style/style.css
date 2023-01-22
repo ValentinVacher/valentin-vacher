@@ -153,22 +153,22 @@ body{
 .date{
     color: #F9b233;
 }
-.bac, .licence, .autoformation, .parcours{
+.bac, .licence, .autoformation, .parcours, .NET{
     padding: 30px;
     border-image: linear-gradient(to right, #F9b233, #e17b1b);
     border-image-slice: 1;
 }
-.bac, .licence{
+.bac, .licence, .autoformation{
     border-bottom: 2px solid #e17B1B;
 }
 .bac, .autoformation{
     padding-left: 75px;
     padding-left: 75px;
 }
-.licence, .autoformation{
+.licence, .autoformation, .NET{
     border-top: 2px solid #e17B1B;
 }
-.licence{
+.licence, .NET{
     border-right: 4px solid #e17B1B;
     padding-right: 75px;
 }
@@ -191,12 +191,14 @@ body{
     visibility: visible;
 }
 .fa-arrow-down{
-    width: 20px;
+    width: 22px;
     height: auto;
-    color: #F9b233;
-    margin-left: -87px;
-    margin-top:9px;
-    position: absolute;
+    color: #e17B1B;
+    margin-left: 100%;
+}
+.arrow{
+    padding-right: 13px;
+    margin-top: -26px;
 }
 #parcours{
     border: 2px solid ;
