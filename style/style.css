@@ -205,3 +205,10 @@ body{
     padding: 10px 50px 30px;
     box-shadow: 0 0 100px black;
 }
+.link{
+    color: #E17B1B;
+    text-decoration: none;
+}
+.link:hover{
+    color: #F9b233;
+}
