@@ -27,8 +27,8 @@ nav.appendChild(cv);
 
 let contact = document.createElement("a");
 contact.href = "#";
-contact.className = "contact";
-contact.innerText = "CONTACT";
+contact.className = "portfolio";
+contact.innerText = "PORTFOLIO";
 
 nav.appendChild(contact);
 

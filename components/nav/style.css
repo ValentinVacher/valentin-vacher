@@ -1,7 +1,7 @@
 nav, .logo, .grid-github{
     width: 100%;
 }
-nav, .cv::before, .contact::before, .bomberman::before{
+nav, .cv::before, .portfolio::before, .bomberman::before{
     position: absolute;
 }
 nav{
@@ -37,7 +37,7 @@ nav{
     color: #F9B233;
     height: 40px;
 }
-.cv, .contact, .bomberman{
+.cv, .portfolio, .bomberman{
     display: block;
     line-height: 50px;
     text-decoration: none;
@@ -47,7 +47,7 @@ nav{
     font-family: 'Rajdhani-Bold';
     font-size: 25px;
 }
-.cv, .contact, .bomberman{
+.cv, .portfolio, .bomberman{
     border-left: 1px solid #513234;
     border-right: 1px solid #513234;
 }
@@ -61,7 +61,7 @@ nav{
 .grid-github{
     border-left: 1px solid #513234;
 }
-.cv::before, .contact::before, .bomberman::before{
+.cv::before, .portfolio::before, .bomberman::before{
     content: "";
     z-index: -1;
     top: 0;
@@ -73,11 +73,11 @@ nav{
     transform-origin: 0 50%;
     transition: 1s ease-in-out;
 }
-.cv:active, .contact:active, .bomberman:active{
+.cv:active, .portfolio:active, .bomberman:active{
     transition-duration: .1s;
     font-size: 20px;
     color: #210002;
 }
-.cv:hover::before, .cv:active::before, .cv:focus::before, .contact:hover::before, .contact:active::before, .contact:focus::before, .bomberman:hover::before, .bomberman:active::before, .bomberman:focus::before{
+.cv:hover::before, .cv:active::before, .cv:focus::before, .portfolio:hover::before, .portfolio:active::before, .portfolio:focus::before, .bomberman:hover::before, .bomberman:active::before, .bomberman:focus::before{
     transform: scaleX(1);
 }
