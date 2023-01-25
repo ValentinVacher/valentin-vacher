@@ -26,7 +26,7 @@ cv.innerText = "CV EN PDF";
 nav.appendChild(cv);
 
 let contact = document.createElement("a");
-contact.href = "#";
+contact.href = "portfolio.html";
 contact.className = "portfolio";
 contact.innerText = "PORTFOLIO";
 
