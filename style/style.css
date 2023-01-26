@@ -22,6 +22,9 @@ h4{
     letter-spacing: 2px;
     margin-bottom: -20px;
 }
+a{
+    text-decoration: none;
+}
 .title{
     padding-top: 4rem;
     animation: scale-in-bottom .5s ease-out both;
@@ -132,18 +135,10 @@ body{
     top: 110px;
     height: 50px;
 }
-.red{
-    position: absolute;
-    color: red;
-    font-size: xx-large;
-    font-family: 'Rajdhani-Bold';
-    right: 10%;
-    top: 20%;
-}
 .parcours, .bac, .autoformation{
     border-left: 4px solid #E17B1B;
 }
-.parcours{
+.parcours, .bomberman-title{
     color: #E17B1B;
     margin-bottom: 0;
 }
@@ -207,11 +202,147 @@ body{
 }
 .link{
     color: #E17B1B;
-    text-decoration: none;
 }
 .link:hover{
     color: #F9b233;
 }
 .mid{
     padding-top: 200px;
+}
+.cadre{
+    position: relative;
+    padding: 40px 20px 25px 0;
+    width: 60%;
+    max-width: 600px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    margin: 10px 8px;
+    color: #F9b233;
+    text-align: center;
+}
+.cadre:before, .cadre:after{
+    content: '';
+    display: block;
+    position: absolute;
+    width: 20%;
+    height: 20%;
+    border: 1px solid;
+    transition: all 0.6s ease;
+    border-radius: 2px;
+    z-index: -1;
+}
+
+.cadre:before{
+    top: 15px;
+    left: 0;
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+}
+
+.cadre:after{
+    bottom: 0px;
+    right: 15px;
+    border-top-color: transparent;
+    border-left-color: transparent;
+}
+
+.cadre:hover:before, .cadre:hover:after{
+    border-color: #F9b233;
+    width: 100%;
+    height: 100%;
+}
+.img-container {
+    height: 250px;
+    width: 90%;
+    max-width: 500px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.img-container img{
+    position: relative;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.img-container:hover img{
+    transform: scale(1.07);
+    transform-origin: 50% 50%;
+    filter: contrast(140%);
+    transition: 0.3s ease-in-out;
+}
+#portfolio{
+    margin-left: -20%;
+    margin-right: -20%;
+}
+.portgolio-grid{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr;
+}
+.portfolio-description{
+    margin-top: 50px;
+    margin-left: -100%;
+}
+.button{
+    display: block;
+    width: 300px;
+    height: 70px;
+    text-align: center;
+    line-height: 50px;
+    text-decoration: none;
+    color: #DF711d;
+    position: relative;
+    transition-duration: 0.3s;
+    font-family: 'Rajdhani-Bold';
+    font-size: 25px;
+}
+.button a{
+    color: #E17B1B;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr;
+}
+.portfolio-icon{
+    color: #E17B1B !important;
+    padding: 10px;
+    padding-left: 20px;
+}
+.portfolio-icon:hover{
+    transform: none !important;
+}
+.button a h4{
+    margin-top: 12px;
+    padding-right: 20px;
+}
+.button::before
+{
+    position: absolute;
+    content: "";
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #F9b233;
+    transform: scaleX(0);
+    transform-origin: 0 50%;
+    transition: 1s ease-in-out;
+}
+.button:hover::before, .button:active::before, .button:focus::before{
+    transform: scaleX(1);
+}
+.bg{
+    position: absolute;
+    z-index: 1;
+    background-color: #210002;
+    width: 300px;
+    height: 70px;
+}
+.button:active{
+    transition-duration: .1s;
+    font-size: 20px;
 }
