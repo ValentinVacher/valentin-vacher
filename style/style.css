@@ -283,13 +283,13 @@ body{
     grid-template-rows: 1fr;
 }
 .portfolio-description{
-    margin-top: 50px;
+    margin-top: 10px;
     margin-left: -100%;
 }
 .button{
     display: block;
     width: 300px;
-    height: 70px;
+    height: 120px;
     text-align: center;
     line-height: 50px;
     text-decoration: none;
@@ -310,13 +310,14 @@ body{
     color: #E17B1B !important;
     padding: 10px;
     padding-left: 20px;
+    padding-top: 35px;
 }
 .portfolio-icon:hover{
     transform: none !important;
 }
 .button a h4{
     margin-top: 12px;
-    padding-right: 20px;
+    padding-right: 10px;
 }
 .button::before
 {
@@ -340,9 +341,34 @@ body{
     z-index: 1;
     background-color: #210002;
     width: 300px;
-    height: 70px;
+    height: 120px;
 }
 .button:active{
     transition-duration: .1s;
     font-size: 20px;
+}
+.portfolio-description p{
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+.bgc{
+    position: absolute;
+    margin-left: 350px;
+    z-index: 1;
+    background-color: #210002;
+    width: 300px;
+    height: 120px;
+}
+.portfolio-title{
+    color: #E17B1B;
+    margin-bottom: -50px;
+}
+#wine-cellar{
+    margin-top: 100px;
+}
+.button-wine, .bgw{
+    height: 70px !important;
+}
+.button-wine a .portfolio-icon{
+    padding-top: 10px !important;
 }
