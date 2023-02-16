@@ -74,12 +74,12 @@
     }
     .parallax__layer img {
         scale: 0.75;
-        top: 52vh;
+        top: 53vh;
     }
 }
 @media (max-height: 800px){
     .parallax__layer img {
-        top: 49vh;
+        top: 50vh;
     }
     .parallax__cover{
         height: 200vh;
@@ -87,7 +87,7 @@
 }
 @media (max-height: 750px){
     .parallax__layer img {
-        top: 45vh;
+        top: 46vh;
     }
     .title{
         margin-bottom: -3rem;
@@ -95,12 +95,12 @@
 }
 @media (max-height: 700px){
     .parallax__layer img {
-        top: 41vh;
+        top: 42vh;
     }
 }
 @media (max-height: 650px){
     .parallax__layer img {
-        top: 37vh;
+        top: 39vh;
     }
     .title h1, .title h2{
         font-size: 30px;
@@ -127,7 +127,7 @@
 }
 @media (max-height: 600px){
     .parallax__layer img {
-        top: 31vh;
+        top: 32vh;
     }
     .parallax__cover{
         height: 240vh;
@@ -139,7 +139,7 @@
 @media (max-height: 550px){
     .parallax__layer img {
         scale: 0.5;
-        top: 35vh;
+        top: 37vh;
     }
     .title{
         margin-bottom: -3rem;
@@ -150,7 +150,7 @@
 }
 @media (max-height: 500px){
     .parallax__layer img {
-        top: 29vh;
+        top: 30vh;
     }
     .title{
         margin-bottom: -3.6rem;
@@ -215,7 +215,7 @@
     }
     .parallax__layer img {
         scale: 0.5;
-        top: 49vh;
+        top: 50vh;
     }
 }
 @media (max-height: 650px) and (max-width: 750px) {
@@ -229,7 +229,7 @@
     } 
     .parallax__layer img {
         scale: 0.5;
-        top: 45vh;
+        top: 46vh;
     }
 }
 @media (max-height: 650px) and (max-width: 550px) {
@@ -243,7 +243,7 @@
 @media (max-height: 600px) and (max-width: 1250px) {
     .parallax__layer img {
         scale: 0.5;
-        top: 41vh;
+        top: 42vh;
     }
     .title{
         margin-bottom: 0;
@@ -268,7 +268,7 @@
     }
     .parallax__layer img {
         scale: 0.4;
-        top: 45vh;
+        top: 46vh;
     }
 }
 @media (max-height: 550px) and (max-width: 850px) {
@@ -287,7 +287,7 @@
     }
     .parallax__layer img {
         scale: 0.3;
-        top: 44vh;
+        top: 45vh;
     }
 }
 @media (max-height: 550px) and (max-width: 750px) {
@@ -297,7 +297,7 @@
 }
 @media (max-height: 500px) and (max-width: 1250px) {
     .parallax__layer img {
-        top: 29vh;
+        top: 30vh;
     }
     .title{
         margin-bottom: -3.5rem;
@@ -311,7 +311,7 @@
 @media (max-height: 500px) and (max-width: 850px) {
     .parallax__layer img {
         scale: 0.3;
-        top: 38vh
+        top: 39vh
     }
     .title{
         margin-bottom: -3rem;
@@ -328,6 +328,6 @@
     }
     .parallax__layer img {
         scale: 0.20;
-        top: 42vh
+        top: 43vh
     }
 }
