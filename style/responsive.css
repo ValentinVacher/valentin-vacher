@@ -67,6 +67,9 @@
     .info{
         margin-top: 3rem;
     }
+    .cv, .portfolio, .bomberman{
+        font-size: 15px;
+    }
 }
 @media (max-height: 850px){
     .title h1, .title h2{
@@ -74,12 +77,12 @@
     }
     .parallax__layer img {
         scale: 0.75;
-        top: 53vh;
+        top: 52vh;
     }
 }
 @media (max-height: 800px){
     .parallax__layer img {
-        top: 50vh;
+        top: 49vh;
     }
     .parallax__cover{
         height: 200vh;
@@ -87,7 +90,7 @@
 }
 @media (max-height: 750px){
     .parallax__layer img {
-        top: 46vh;
+        top: 45vh;
     }
     .title{
         margin-bottom: -3rem;
@@ -95,12 +98,12 @@
 }
 @media (max-height: 700px){
     .parallax__layer img {
-        top: 42vh;
+        top: 41vh;
     }
 }
 @media (max-height: 650px){
     .parallax__layer img {
-        top: 39vh;
+        top: 38vh;
     }
     .title h1, .title h2{
         font-size: 30px;
@@ -127,7 +130,7 @@
 }
 @media (max-height: 600px){
     .parallax__layer img {
-        top: 32vh;
+        top: 31vh;
     }
     .parallax__cover{
         height: 240vh;
@@ -139,7 +142,7 @@
 @media (max-height: 550px){
     .parallax__layer img {
         scale: 0.5;
-        top: 37vh;
+        top: 35vh;
     }
     .title{
         margin-bottom: -3rem;
@@ -150,7 +153,7 @@
 }
 @media (max-height: 500px){
     .parallax__layer img {
-        top: 30vh;
+        top: 29vh;
     }
     .title{
         margin-bottom: -3.6rem;
@@ -167,6 +170,11 @@
 @media (max-height: 800px) and (max-width: 450px) {
     .description{
         font-size: 15px;
+    }
+}
+@media (max-height: 750px) and (max-width: 900px) {
+    .title{
+        margin-bottom: -1rem;
     }
 }
 @media (max-height: 750px) and (max-width: 700px) {
@@ -215,21 +223,19 @@
     }
     .parallax__layer img {
         scale: 0.5;
-        top: 50vh;
+        top: 49vh;
     }
 }
 @media (max-height: 650px) and (max-width: 750px) {
     .parallax__cover{
         height: 240vh;
     }
-}
-@media (max-height: 650px) and (max-width: 700px) {
     .title{
         margin: 0.5rem;
     } 
     .parallax__layer img {
         scale: 0.5;
-        top: 46vh;
+        top: 45vh;
     }
 }
 @media (max-height: 650px) and (max-width: 550px) {
@@ -243,7 +249,7 @@
 @media (max-height: 600px) and (max-width: 1250px) {
     .parallax__layer img {
         scale: 0.5;
-        top: 42vh;
+        top: 41vh;
     }
     .title{
         margin-bottom: 0;
@@ -268,7 +274,7 @@
     }
     .parallax__layer img {
         scale: 0.4;
-        top: 46vh;
+        top: 45vh;
     }
 }
 @media (max-height: 550px) and (max-width: 850px) {
@@ -287,7 +293,7 @@
     }
     .parallax__layer img {
         scale: 0.3;
-        top: 45vh;
+        top: 44vh;
     }
 }
 @media (max-height: 550px) and (max-width: 750px) {
@@ -297,7 +303,7 @@
 }
 @media (max-height: 500px) and (max-width: 1250px) {
     .parallax__layer img {
-        top: 30vh;
+        top: 29vh;
     }
     .title{
         margin-bottom: -3.5rem;
@@ -311,7 +317,7 @@
 @media (max-height: 500px) and (max-width: 850px) {
     .parallax__layer img {
         scale: 0.3;
-        top: 39vh
+        top: 38vh
     }
     .title{
         margin-bottom: -3rem;
@@ -328,6 +334,6 @@
     }
     .parallax__layer img {
         scale: 0.20;
-        top: 43vh
+        top: 42vh
     }
 }
