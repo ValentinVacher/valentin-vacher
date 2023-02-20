@@ -6,7 +6,7 @@
 - __[English](#EN)__
 ## FR:
 
-Mon __[site web](https://valentin-vacher.fr)__ (encore en cours de développement).
+Mon __[site web](https://valentin-vacher.fr)__
 ## EN:
 
-My __[website](https://valentin-vacher.fr)__ (still under development).
+My __[website](https://valentin-vacher.fr)__.
