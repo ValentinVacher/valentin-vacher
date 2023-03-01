@@ -26,11 +26,11 @@ nav{
 .logo img{
     height: 100%;
 }
-.logo img:hover, .fa-github:hover{
+.logo img:hover{
     transform: scale(1.1);
     transition: .1s linear;
 }
-.logo img:active, .fa-github:active{
+.logo img:active{
     transform: scale(1);
 }
 .cv, .portfolio, .bomberman{
@@ -42,6 +42,7 @@ nav{
     transition-duration: 0.3s;
     font-family: 'Rajdhani-Bold';
     font-size: 25px;
+    cursor: pointer;
 }
 .cv, .portfolio, .bomberman{
     border-left: 1px solid #513234;
