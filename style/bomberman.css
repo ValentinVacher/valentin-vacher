@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:  border-box;
+    overflow: hidden;
+}
+body{
+    background: url(../asset/images/background.jpg) no-repeat;
+    background-size: 1920px;
+}
+canvas{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    visibility: hidden;
+    background-size: 1920px 1080px;
+    height: 1080px;
+    width: 1920px;
+    max-width: 100%;
+    max-height: 100%;
+}
+#input, input:active{
+    transition-timing-function: ease-in-out;
+}
+input{
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    padding: 10px;
+    width: 300px;
+    height: 100px;
+    transform: translateX(-50%);
+    background: #ffdc9b;
+    border: none;
+    box-shadow: 0px 0px 5px 2px #5a5127;
+    font-size: 75px;
+    border-radius: 10px; 
+    font-weight: bold;
+    font-family: 'botw', sans-serif;
+    letter-spacing: 10px;
+    transition: .5s; 
+    z-index: 10;
+    cursor: pointer;
+}
+input:hover{
+    transform: scale(1.1) translateX(-45%);
+}
+input:active{
+    transition: .05s;
+    transform: scale(1) translateX(-50%);
+}  
+#infos{
+    top: 45%;
+    width: auto;
+    font-size: 25px;
+    height: auto;
+    letter-spacing: 3px;
+} 
+@media screen and (max-width: 1920px){
+    canvas{
+        width: 1600px;
+        height: 900px;
+    }
+}
+@media screen and (min-width: 1920px){
+    body{
+        background-size: 2560px;
+    }
+}
+#map, #brownWall, #bomb, #greenLink, #redLink, #explosion {
+    display: none;
+}

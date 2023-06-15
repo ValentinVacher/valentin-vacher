@@ -1,0 +1,83 @@
+nav, .logo, .grid-github{
+    width: 100%;
+}
+nav, .cv::before, .portfolio::before, .bomberman::before{
+    position: absolute;
+}
+nav{
+    display: grid;
+    grid-template-columns: 1fr repeat(3, 3fr) 1fr;
+    text-align: center;
+    background-color: #210002;
+    top: 0;
+    right: 0;
+    height: 50px;
+    z-index: 1;
+    animation: appearY .25s ease-out both;
+}
+.logo:hover, .grid-github{
+    cursor:default;
+}
+.logo img, .fa-github{
+    cursor: pointer;
+    height: 40px !important;
+    margin-top: 5px;
+}
+.logo img{
+    height: 100%;
+}
+.logo img:hover, .fa-github:hover{
+    transform: scale(1.1);
+    transition: .1s linear;
+}
+.logo img:active, .fa-github:active{
+    transform: scale(1);
+}
+.fa-github{
+    color: #F9B233;
+    height: 40px;
+}
+.cv, .portfolio, .bomberman{
+    display: block;
+    line-height: 50px;
+    text-decoration: none;
+    color: #DF711d;
+    position: relative;
+    transition-duration: 0.3s;
+    font-family: 'Rajdhani-Bold';
+    font-size: 25px;
+}
+.cv, .portfolio, .bomberman{
+    border-left: 1px solid #513234;
+    border-right: 1px solid #513234;
+}
+.logo{
+    border-right: 1px solid #513234;
+}
+.bomberman{
+    font-family: "botw";
+    letter-spacing: 2px;
+}
+.grid-github{
+    border-left: 1px solid #513234;
+}
+.cv::before, .portfolio::before, .bomberman::before{
+    content: "";
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #F9b233;
+    transform: scaleX(0);
+    transform-origin: 0 50%;
+    transition: 1s ease-in-out;
+}
+.cv:active, .portfolio:active, .bomberman:active{
+    transition-duration: .1s;
+    font-size: 20px;
+    color: #210002;
+}
+.cv:hover::before, .cv:active::before, .cv:focus::before, .portfolio:hover::before, .portfolio:active::before, .portfolio:focus::before, .bomberman:hover::before, .bomberman:active::before, .bomberman:focus::before{
+    transform: scaleX(1);
+}
